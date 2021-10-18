@@ -49,7 +49,7 @@ var myTable = function () {
                 td.classList.add('bg-success');
             } else {
                 td = document.createElement( 'td' );
-                td.innerHTML = ++z;
+                td.innerHTML = (j-1)*(i-1);
                 tr.appendChild( td );
                 if ( i < j ) {
                     td.classList.add('yellow-down');
